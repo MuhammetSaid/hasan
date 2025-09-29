@@ -235,26 +235,26 @@ export default function MainPage() {
                             <div className="sec7-cards">
                                 <div className="two-cards">
                                     <div className="card3">
-                                        <h1 style={{marginTop: "0"}}>إدارة الأزمات والحوكمة الرشيدة</h1>
+                                        <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>إدارة الأزمات والحوكمة الرشيدة</h1>
                                     </div>
                                     <div className="card3">
-                                        <h1 style={{marginTop: "0"}}>تدريب وبناء قدرات الكوادر الشبابية والمجتمعية</h1>
+                                        <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>تدريب وبناء قدرات الكوادر الشبابية والمجتمعية</h1>
                                     </div>  
                                 </div>
 
                                 <div className="two-cards">
                                     <div className="card3">
-                                    <h1 style={{marginTop: "0"}}>التخطيط الاستراتيجي وإدارة المشاريع</h1>
+                                    <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>التخطيط الاستراتيجي وإدارة المشاريع</h1>
                                         
                                     </div>
                                     <div className="card3">                                    
-                                        <h1 style={{marginTop: "0"}}>تطوير السياسات الصحية والاجتماعية</h1>
+                                        <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>تطوير السياسات الصحية والاجتماعية</h1>
                                     </div>  
                                 </div>
 
                                 <div className="two-cards">
                                     <div className="card3">
-                                        <h1 style={{marginTop: "0"}}>التفاوض وبناء الشراكات المحلية والدولية</h1>
+                                        <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>التفاوض وبناء الشراكات المحلية والدولية</h1>
                                     </div> 
                                 </div>
                             </div>
