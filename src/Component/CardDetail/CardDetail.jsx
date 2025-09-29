@@ -42,10 +42,9 @@ export default function CardDetail(){
                     display: 'flex',
                     alignItems: 'center',
                     gap: 8
-                }}>⬅︎ Geri</button>
+                }}>⬅︎ الرجوع</button>
 
                 <div style={{background: 'white', borderRadius: 10, boxShadow: '0 6px 18px rgba(0,0,0,0.08)', padding: 28}}>
-                    <h2 style={{marginTop: 0, marginBottom: 12, textAlign: 'left'}}>{content ? 'Detay' : 'İçerik yok'}</h2>
                     <div style={{color: '#333', lineHeight: 1.6, fontSize: 18, whiteSpace: 'pre-wrap', textAlign: 'left'}}>
                         {content || 'Seçili bir kart yok.'}
                     </div>

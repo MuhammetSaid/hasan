@@ -25,12 +25,13 @@ export default function MainPage() {
 
                 <div className="right-section1">
                     <div className="right-section">
-                        <div className="right-content">
+                        <div className="right-content" style={{padding: "80px", direction: "rtl"}}>
                             <div className="image-dev">
                                 <img src="https://i.imgur.com/R25HfMq.png" alt="" />
                             </div>
 
-                            <h1 style={{fontSize:"50px", marginTop: "10px"}}>معاً نصنع غداً أجمل لسورية وأجيالها</h1>
+                            <h1 style={{fontSize:"40px", marginTop: "10px", textAlign: "center"}}>نحن نؤمن بوطن يجمع أبنائه على قلب واحد، حيث العدالة الاجتماعية قاعدة لكل عمل، ورؤية جامعة تقود نهضة اقتصادية حقيقية، ليكون وطننا حراً كريماً، صاعداً نحو المستقبل، ومزدهراً بثمار جهود كل أبنائه.
+                            </h1>
                             <h1 style={{fontSize:"48px", marginTop: "32px"}}>إرادة شعب… ورؤية وطن</h1>
                             <h3 style={{ marginTop: "120px"}}>من فضلك قم بالتمرير للأسفل</h3>
                         </div>
@@ -52,7 +53,7 @@ export default function MainPage() {
 
                     <div className="section3">
                         <div className="section3-content"> 
-                            <h1 style={{margin: "48px", color: "white"}}>الأولويات الاستراتيجية</h1>
+                            <h1 style={{margin: "48px", color: "white"}}>الأولويات الوطنية</h1>
                             <div className="slider-div"style={{width: "80%"}}> 
                                 <ReactCardSlider />
                             </div>
@@ -63,7 +64,7 @@ export default function MainPage() {
                         <div className="section4-content">
                             <h1 style={{marginTop: "140px", textAlign: "center", fontSize:"43px", width: "80%", color:" white"}}>تنتقل مياديننا من ساحة المعركة إلى ساحة البناء، ومن ثورةٍ على الظلم إلى ثورةِ الإعمار والتغيير
                             </h1>
-                            <img src="https://i.imgur.com/P0iNcK4.png" alt="" style={{marginTop: "50px", width: "9%"}}/>
+                            <img src="https://i.imgur.com/P0iNcK4.png" alt="" style={{marginTop: "1px", width: "9%"}}/>
                         </div>
                     </div>
 
@@ -136,7 +137,7 @@ export default function MainPage() {
                                 <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
                             </div>
 
-                            <h1 style={{textAlign: "center", fontSize: "50px", color: "#007a18", marginTop: "40px"}}> الملف الإقتصادي وإعادة الإعمار بعد الانتصار
+                            <h1 style={{textAlign: "center", fontSize: "50px", color: "#007a18"}}> الملف الإقتصادي وإعادة الإعمار بعد الانتصار
 
                             </h1>
 
@@ -146,7 +147,7 @@ export default function MainPage() {
                                 <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
                             </div>
 
-                            <h1 style={{textAlign: "center", fontSize: "30px", color: "#007a18", marginTop: "40px"}}>إعادة الإعمار المستدام
+                            <h1 style={{textAlign: "center", fontSize: "30px", color: "#007a18"}}>إعادة الإعمار المستدام
                             </h1>
 
                             <div className="cards1 cards">
@@ -255,7 +256,34 @@ export default function MainPage() {
 
                     <div className="section8">
                         <div className="section8-content">
+                            <div className="section8-con">
+                                <div className="section8-con-left">
+                                    <img src="https://i.imgur.com/XrXeVrE.jpeg" alt="" />
+                                </div>
 
+                                <div className="section8-con-right" style={{direction: "rtl"}}>
+                                    <h1 style={{textAlign: "center"}}>الأهداف المستقبلية                                    </h1>
+
+                                    <div className="cards1 cards">
+                                        <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية')}` }}>
+                                            <h2 style={{textAlign:"center"}}>العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية</h2>
+                                        </div>
+                                        <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('نقل الصلاحيات والموارد من المركز إلى السلطات المحلية')}` }}>
+                                            <h2 style={{textAlign:"center"}}>نقل الصلاحيات والموارد من المركز إلى السلطات المحلية</h2>
+                                        </div>
+                                        <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة')}` }}>
+                                            <h2 style={{textAlign:"center"}}>تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة</h2>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <h1 style={{textAlign:"center", marginTop: "30px"}}>أضع كل خبرتي والتزامي في خدمتكم، لضمان أن يكون كل قرار وبرنامج في مجلس الشعب انعكاساً حقيقياً لصوت المواطن السوري. معاً، نحوّل الطموح إلى واقع ملموس يواكب نصر ثورتنا المباركة، حلم لن يكتمل إلا بالكفاءة وتُبنى المسؤوليات على الأمانة، فقبيلتنا وعائلتنا الكبرى هي الوطن، وانتماؤنا الأسمى هو لسورية الحرّة</h1>
+                                    <h1 style={{textAlign:"center", marginTop: "30px"}}>سنبني كما قاتلنا</h1>
+                                    <h1 style={{textAlign:"center", marginTop: "14px"}}>ونعمر كما ثُرنا</h1>
+                                    <h1 style={{textAlign:"center", marginTop: "40px"}}>★★★</h1>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
 

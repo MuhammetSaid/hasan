@@ -209,6 +209,35 @@
     margin-left: 300px;
     background-color:  #FFF6E8;
     height: 110vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section8-con {
+    width: 87%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section8-con-left {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.section8-con-left img {
+    width: 90%;
+}
+
+.section8-con-right {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .footer {
@@ -417,6 +446,9 @@
     .cards1::-webkit-scrollbar {
         display: none;
     }
+    .right-content {
+        padding: 0 !important;
+    }
 }
 
 /* Responsive typography: fluid sizes and smaller fonts on mobile */
@@ -503,7 +535,7 @@
 
 .section4-content h1 {
     position: relative;
-    top: -30px; /* move heading slightly up */
+    top: -90px; /* move heading slightly up */
 }
 
 .section4-content img {
@@ -513,7 +545,6 @@
 
 @media (max-width: 768px) {
     .section4-content h1 {
-        top: -20px;
         font-size: 20px !important;
     }
 
@@ -572,3 +603,93 @@
         padding: 16px !important;
     }
 }
+
+/* Responsive rules for section8 */
+.section8-con {
+    width: 87%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section8-con-left {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section8-con-left img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.section8-con-right {
+    width: 68%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+    .section8-con {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .section8-con-left {
+        width: 35%;
+    }
+
+    .section8-con-right {
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .section8 {
+        padding: 30px 20px;
+    }
+
+    .section8-con {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section8-con-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section8-con-left img {
+        width: 80%;
+    }
+
+    .section8-con-right {
+        width: 100%;
+    }
+
+    /* Make cards inside section8 behave as horizontal slider on mobile */
+    .section8 .cards1 {
+        display: flex;
+        overflow-x: auto;
+        gap: 12px;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 8px;
+    }
+
+    .section8 .cards1 .card1, .section8 .cards1 .card2, .section8 .cards1 .card3 {
+        flex: 0 0 90%;
+        scroll-snap-align: center;
+        max-width: 420px;
+    }
+
+    .section8 .cards1::-webkit-scrollbar { display: none; }
+}
+

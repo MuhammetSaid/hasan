@@ -11,7 +11,7 @@ import "./ReactCardSlider.css"
 export default () => {
     return (
         <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+            modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={50}
             slidesPerView={3} // varsayılan
             navigation
@@ -40,11 +40,9 @@ export default () => {
                     <div className="slide-card-image">
                         <img src="https://i.imgur.com/UBvK4IM.jpeg" alt="" />
                     </div>
-                    <div className="text-dev" style={{direction: "rtl", paddingTop: "20px", display: "flex", alignItems: "center", flexDirection: "column", justifyContent:"center"}}>
-                        <h2 style={{textAlign: "center"}}>دولة نزيهة وشفافة</h2>
-                        <h4 style={{textAlign: "center"}}>
-                            نرسخ مفاهيم الحكم الرشيد والرقابة الفعّالة في إدارة المؤسسات وتقديم الخدمات، لضمان النزاهة والعدالة
-                        </h4>
+                    <div className="text-dev" style={{direction: "rtl", paddingTop: "20px", display: "flex", alignItems: "center", flexDirection: "column", justifyContent:"center", padding: "0 10px"}}>
+                        <h2 style={{textAlign: "center"}}> الصحة والتعليم</h2>
+                        <h4 style={{textAlign: "center", marginTop: "10px"}}>توفير خدمات صحية وتعليمية عالية الجودة لكل المواطنين.</h4>
                     </div>
                 </div>
             </SwiperSlide>
@@ -53,7 +51,12 @@ export default () => {
                     <div className="slide-card-image">
                         <img src="https://i.imgur.com/UBvK4IM.jpeg" alt="" />
                     </div>
-                    <div className="text-dev"></div>
+                    <div className="text-dev">
+                        <div className="text-dev" style={{direction: "rtl", paddingTop: "20px", display: "flex", alignItems: "center", flexDirection: "column", justifyContent:"center", padding: "0 10px"}}>
+                            <h2 style={{textAlign: "center"}}>التنمية والعدالة الاجتماعية</h2>
+                            <h4 style={{textAlign: "center", marginTop: "10px"}}>تعزيز التنمية الاقتصادية وضمان العدالة الاجتماعية للجميع.</h4>
+                        </div>
+                    </div>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -61,7 +64,12 @@ export default () => {
                     <div className="slide-card-image">
                         <img src="https://i.imgur.com/UBvK4IM.jpeg" alt="" />
                     </div>
-                    <div className="text-dev"></div>
+                    <div className="text-dev">
+                        <div className="text-dev" style={{direction: "rtl", paddingTop: "20px", display: "flex", alignItems: "center", flexDirection: "column", justifyContent:"center", padding: "0 10px"}}>
+                            <h2 style={{textAlign: "center"}}>الخدمات والبنية التحتية</h2>
+                            <h4 style={{textAlign: "center", marginTop: "10px"}}>تحسين الخدمات العامة وتطوير البنية التحتية بكفاءة.</h4>
+                        </div>
+                    </div>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -69,7 +77,12 @@ export default () => {
                     <div className="slide-card-image">
                         <img src="https://i.imgur.com/UBvK4IM.jpeg" alt="" />
                     </div>
-                    <div className="text-dev"></div>
+                    <div className="text-dev">
+                        <div className="text-dev" style={{direction: "rtl", paddingTop: "20px", display: "flex", alignItems: "center", flexDirection: "column", justifyContent:"center", padding: "0 10px"}}>
+                            <h2 style={{textAlign: "center"}}>دعم المجتمع</h2>
+                            <h4 style={{textAlign: "center", marginTop: "10px"}}>تمكين المجتمع المحلي ودعم المبادرات والمشاريع المجتمعية.</h4>
+                        </div>
+                    </div>
                 </div>
             </SwiperSlide>
         </Swiper>
