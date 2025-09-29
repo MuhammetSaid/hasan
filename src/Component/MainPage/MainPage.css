@@ -20,13 +20,13 @@
     height: 100vh;
     position: fixed;
     padding: 0 36px !important;
-    padding-top: 45px !important;
+    padding-top: 25px !important;
     direction: rtl;
     z-index: 100 !important;
 }
 
 .profile-image {
-    width: 180px;
+    width: 170px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -203,7 +203,11 @@
     height: 100px;
     background-color: white;
     cursor: pointer;
-    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 8px black;
 }
 .section8-content {
     margin-left: 300px;
@@ -383,6 +387,9 @@
 
     .main-dev {
         height: auto !important;
+    }
+    .section8-content {
+        height: auto;
     }
 }
 
@@ -693,3 +700,9 @@
     .section8 .cards1::-webkit-scrollbar { display: none; }
 }
 
+.card4 {
+    border: none;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}

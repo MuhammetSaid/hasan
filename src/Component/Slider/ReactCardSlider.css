@@ -1,6 +1,6 @@
 .main-side {
     width: 320px;
-    background-color: red;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;

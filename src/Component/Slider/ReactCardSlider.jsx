@@ -38,7 +38,7 @@ export default () => {
             <SwiperSlide>
                 <div className="main-side">
                     <div className="slide-card-image">
-                        <img src="https://i.imgur.com/UBvK4IM.jpeg" alt="" />
+                        <img src="https://i.imgur.com/VSSVqDp.jpeg" alt="" />
                     </div>
                     <div className="text-dev" style={{direction: "rtl", paddingTop: "20px", display: "flex", alignItems: "center", flexDirection: "column", justifyContent:"center", padding: "0 10px"}}>
                         <h2 style={{textAlign: "center"}}> الصحة والتعليم</h2>
@@ -49,7 +49,7 @@ export default () => {
             <SwiperSlide>
                 <div className="main-side">
                     <div className="slide-card-image">
-                        <img src="https://i.imgur.com/UBvK4IM.jpeg" alt="" />
+                        <img src="https://i.imgur.com/TSUShqf.jpeg" alt="" />
                     </div>
                     <div className="text-dev">
                         <div className="text-dev" style={{direction: "rtl", paddingTop: "20px", display: "flex", alignItems: "center", flexDirection: "column", justifyContent:"center", padding: "0 10px"}}>
@@ -75,7 +75,7 @@ export default () => {
             <SwiperSlide>
                 <div className="main-side">
                     <div className="slide-card-image">
-                        <img src="https://i.imgur.com/UBvK4IM.jpeg" alt="" />
+                        <img src="https://i.imgur.com/opJe8qb.jpeg" alt="" />
                     </div>
                     <div className="text-dev">
                         <div className="text-dev" style={{direction: "rtl", paddingTop: "20px", display: "flex", alignItems: "center", flexDirection: "column", justifyContent:"center", padding: "0 10px"}}>

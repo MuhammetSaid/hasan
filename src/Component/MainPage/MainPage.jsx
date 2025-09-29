@@ -1,6 +1,7 @@
 import React from 'react'
 import "./MainPage.css"
 import ReactCardSlider from '../Slider/ReactCardSlider'
+import Slider2 from '../Slider2/Slider2'
 
 export default function MainPage() {
     
@@ -13,11 +14,13 @@ export default function MainPage() {
                 <div className="left-section">
                     <div className="left-content">
                         <div className="profile-image">
-                            <img src="https://i.imgur.com/XrXeVrE.jpeg" alt="" />
+                            <img src="https://i.imgur.com/hwxqWcP.jpeg" alt="" style={{width: "160px"}}/>
                         </div>
                         <h1 style={{color: "white", fontSize: "32px", marginTop:"23px"}}>الرؤية الانتخابية للسيد ناصر المحيميد</h1>
-                        <p style={{color: "white", fontSize: "20px", marginTop:"16px"}}>بعد ثورة عظيمة وتضحيات ، نؤمن أن الشرعية الحقيقية تنبع من دماء الشهداء وثبات الثوار.
+                        <p style={{color: "white", fontSize: "19px", marginTop:"16px"}}>بعد ثورة عظيمة وتضحيات جليلة، نؤمن أن الشرعية الحقيقية تنبع من دماء الشهداء وثبات الثوار.
 ننطلق من الثورة السورية المباركة كمنارة لمسارنا، لنرسخ نظاماً عادلاً يقوم على التوازن بين السلطات، ويمنح الثوار دوراً محورياً في صنع القرار وبناء مؤسسات الدولة القادمة.
+وكانت المرأة السورية شريكة في هذه التضحيات، صابرةً ومناضلة، لتبقى ركناً أصيلاً في مسيرة الحرية وبناء الوطن.
+ومن الداخل السوري ارتسمت معالم الحرية، وصاغ صموده صفحات التحرير، فيما كان أبناء المهجر عوناً وسنداً يكملون المسيرة.
 إن رعاية أسر الشهداء والمصابين واجب وطني، وحفظ ذاكرة الثورة عهد لا يسقط، لتبقى حاضرة في وجدان الأجيال.
 نطمح إلى وطنٍ حرّ كريم، يستعيد مكانته بين الأمم بإرادة شعبه ورؤية ثورته.</p>
                     </div>
@@ -216,9 +219,12 @@ export default function MainPage() {
                     </div>
 
                     <div className="section6">
-                        <div className="section6-content">
-                        <h1> المنجزات والخبرات العملية والمجتمعيّة
-                        </h1>
+                        <div className="section6-content" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
+                            <h1 style={{ marginTop: "40px"}}> المنجزات والخبرات العملية والمجتمعيّة
+                            </h1>
+                            <div className="slider6" style={{width: "80%", marginTop: "26px"}}>
+                                <Slider2 />
+                            </div>
                         </div>
                     </div>
 
@@ -229,25 +235,26 @@ export default function MainPage() {
                             <div className="sec7-cards">
                                 <div className="two-cards">
                                     <div className="card3">
-                                        <a href=""></a>
+                                        <h1 style={{marginTop: "0"}}>إدارة الأزمات والحوكمة الرشيدة</h1>
                                     </div>
                                     <div className="card3">
-                                        <a href=""></a>
+                                        <h1 style={{marginTop: "0"}}>تدريب وبناء قدرات الكوادر الشبابية والمجتمعية</h1>
                                     </div>  
                                 </div>
 
                                 <div className="two-cards">
                                     <div className="card3">
-                                        <a href=""></a>
+                                    <h1 style={{marginTop: "0"}}>التخطيط الاستراتيجي وإدارة المشاريع</h1>
+                                        
                                     </div>
-                                    <div className="card3">
-                                        <a href=""></a>
+                                    <div className="card3">                                    
+                                        <h1 style={{marginTop: "0"}}>تطوير السياسات الصحية والاجتماعية</h1>
                                     </div>  
                                 </div>
 
                                 <div className="two-cards">
                                     <div className="card3">
-                                        <a href=""></a>
+                                        <h1 style={{marginTop: "0"}}>التفاوض وبناء الشراكات المحلية والدولية</h1>
                                     </div> 
                                 </div>
                             </div>
@@ -258,21 +265,21 @@ export default function MainPage() {
                         <div className="section8-content">
                             <div className="section8-con">
                                 <div className="section8-con-left">
-                                    <img src="https://i.imgur.com/XrXeVrE.jpeg" alt="" />
+                                    <img src="https://i.imgur.com/hwxqWcP.jpeg" alt="" />
                                 </div>
 
                                 <div className="section8-con-right" style={{direction: "rtl"}}>
                                     <h1 style={{textAlign: "center"}}>الأهداف المستقبلية                                    </h1>
 
                                     <div className="cards1 cards">
-                                        <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية')}` }}>
-                                            <h2 style={{textAlign:"center"}}>العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية</h2>
+                                        <div className="card card1 card4" onClick={() => { window.location.hash = `?content=${encodeURIComponent('المساهمة في صياغة سياسات وطنية لإعادة الإعمارة')}` }}>
+                                            <h2 style={{textAlign:"center"}}>المساهمة في صياغة سياسات وطنية لإعادة الإعمارة</h2>
                                         </div>
-                                        <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('نقل الصلاحيات والموارد من المركز إلى السلطات المحلية')}` }}>
-                                            <h2 style={{textAlign:"center"}}>نقل الصلاحيات والموارد من المركز إلى السلطات المحلية</h2>
+                                        <div className="card card1 card4" onClick={() => { window.location.hash = `?content=${encodeURIComponent('بناء دولة قائمة على العدل – التنمية – المشاركة – الكرامة')}` }}>
+                                            <h2 style={{textAlign:"center"}}>بناء دولة قائمة على العدل – التنمية – المشاركة – الكرامة</h2>
                                         </div>
-                                        <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة')}` }}>
-                                            <h2 style={{textAlign:"center"}}>تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة</h2>
+                                        <div className="card card1 card4" onClick={() => { window.location.hash = `?content=${encodeURIComponent('ضمان مشاركة مجتمعية واسعة في صنع القرار' )}` }}>
+                                            <h2 style={{textAlign:"center"}} > ضمان مشاركة مجتمعية واسعة في صنع القرار</h2>
                                         </div>
                                         
                                     </div>
