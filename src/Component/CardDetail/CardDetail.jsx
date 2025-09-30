@@ -69,9 +69,11 @@ export default function CardDetail(){
 
             <footer style={{background: '#002724', padding: '30px 0', marginTop: 24, flexShrink: 0}}>
                 <div style={{maxWidth: "100%", margin: '0 auto', color: 'white', textAlign: 'center'}}>
-                    <h3 style={{margin: 0, marginBottom: 12}}>أرحب بتواصلكم معي عبر البريد الإلكتروني ورقم الموبايل</h3>
-                    <p style={{margin: 0}}>dr.Ahmed88m@gmail.com   +963945940094</p>
-                    <h3 style={{marginTop: 24}}>ناصر المحيميد</h3>
+                    <h3 style={{margin: 0, marginBottom: 12}}>أرحب بتواصلكم معي عبر البريد الإلكتروني </h3>
+                    <p style={{margin: 0}}>naser.nahar.syria@gmail.com </p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Emblem_of_Syria_%282025%E2%80%93present%29.svg/1200px-Emblem_of_Syria_%282025%E2%80%93present%29.svg.png" alt="" style={{width: "100px", margin: "30px"}}/>
+
+                    <h3 >ناصر المحيميد</h3>
                 </div>
             </footer>
         </div>

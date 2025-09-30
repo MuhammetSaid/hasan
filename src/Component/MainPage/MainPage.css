@@ -124,11 +124,10 @@
 
 .section4-content {
     margin-left: 300px;
-    height: 81vh;
-    background-image: url("https://i.imgur.com/2PGNbde.png");
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .section5 {
@@ -410,6 +409,9 @@
     }
     .logo-image img {
         width: 100% ;
+    }
+    .section4-content img {
+        width: 32% !important;
     }
 }
 
@@ -860,10 +862,7 @@
     .section2-title { font-size: 18px; }
     .section2-p { font-size: 15px; }
 
-    .section2 {
-        background-image: url("https://i.imgur.com/8DnNCf6.png") !important;
-        background-size: cover;
-    }
+    
     .section5-text {
         display: block !important;
     }

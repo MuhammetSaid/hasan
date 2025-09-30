@@ -39,12 +39,16 @@ export default function MainPage() {
                         </div>
                     </div>
 
-                    <div className="section2" style={{backgroundImage: "url(https://i.imgur.com/t4Z5qgL.png)", backgroundSize: "cover"}}>
+                    <div className="section2">
+                        
                         <div className="section2-content">
-                            <div className="image2 image-container" >
-                                <img src="https://media.journoportfolio.com/users/474088/images/752976bf-8b0e-4814-80c6-c06a9e76d5ac.jpg" alt="" />
+                            <div className="logo-abs" style={{position: "absolute", width: "60%"}}>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Emblem_of_Syria_%282025%E2%80%93present%29.svg/1200px-Emblem_of_Syria_%282025%E2%80%93present%29.svg.png" alt="" style={{width: "100%", opacity: "0.3"}} />
                             </div>
-                            <div className="text2">
+                            <div className="image2 image-container" style={{zIndex: "10"}} >
+                                <img src="https://i.imgur.com/zIhCPxE.jpeg" alt="" />
+                            </div>
+                            <div className="text2" style={{zIndex: "10"}}>
                                 <h2 className="section2-title" style={{direction: "rtl", textAlign: "center"}}>رؤيتي لسوريا الحاضر والمستقبل
 
 سوريا التي نحلم بها هي وطن جامع لكل أبنائه، لا مكان فيه للتهميش أو الإقصاء، يقوم على العدالة الاجتماعية وتكافؤ الفرص، حيث تكون مؤسسات الدولة في خدمة الشعب لا العكس.
@@ -69,12 +73,15 @@ export default function MainPage() {
                             </div>
                         </div>
                     </div>
+                    
 
                     <div className="section4">
+                        
                         <div className="section4-content">
-                            <h1 className="section4-heading" style={{marginTop: "140px", textAlign: "center", width: "80%", color:" white"}}>تنتقل مياديننا من ساحة المعركة إلى ساحة البناء، ومن ثورةٍ على الظلم إلى ثورةِ الإعمار والتغيير
+                            
+                            <h1 className="section4-heading" style={{marginTop: "80px", textAlign: "center", width: "80%", color:" white"}}>تنتقل مياديننا من ساحة المعركة إلى ساحة البناء، ومن ثورةٍ على الظلم إلى ثورةِ الإعمار والتغيير
                             </h1>
-                            <img src="https://i.imgur.com/P0iNcK4.png" alt="" style={{marginTop: "1px", width: "9%"}}/>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Emblem_of_Syria_%282025%E2%80%93present%29.svg/1200px-Emblem_of_Syria_%282025%E2%80%93present%29.svg.png" alt="" style={{marginTop: "1px", width: "12%", marginBottom: "20px"}}/>
                         </div>
                     </div>
 
@@ -247,11 +254,11 @@ export default function MainPage() {
 
                     <div className="footer">
                         <div className="footer-content">
-                            <h1 style={{textAlign: "center", color: "white", marginTop: "40px"}}>أرحب بتواصلكم معي عبر البريد الإلكتروني ورقم الموبايل
+                            <h1 style={{textAlign: "center", color: "white", marginTop: "40px"}}>أرحب بتواصلكم معي عبر البريد الإلكتروني 
                             </h1>
-                            <h4 style={{textAlign: "center", color: "white", marginTop: "20px"}}>dr.Ahmed88m@gmail.com   +963945940094</h4>
-
-                            <h1 style={{textAlign: "center", color: "white", marginTop: "90px", marginBottom: "20px"}}>ناصر المحيميد
+                            <h4 style={{textAlign: "center", color: "white", marginTop: "20px"}}>naser.nahar.syria@gmail.com</h4>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Emblem_of_Syria_%282025%E2%80%93present%29.svg/1200px-Emblem_of_Syria_%282025%E2%80%93present%29.svg.png" alt="" style={{width: "100px", margin: "30px"}}/>
+                            <h1 style={{textAlign: "center", color: "white", marginBottom: "20px"}}>ناصر المحيميد
                             </h1>
                         </div>
                     </div>
