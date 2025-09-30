@@ -79,7 +79,7 @@ export default function MainPage() {
                         
                         <div className="section4-content">
                             
-                            <h1 className="section4-heading" style={{marginTop: "80px", textAlign: "center", width: "80%", color:" white"}}>تنتقل مياديننا من ساحة المعركة إلى ساحة البناء، ومن ثورةٍ على الظلم إلى ثورةِ الإعمار والتغيير
+                            <h1 className="section4-heading" style={{marginTop: "50px", textAlign: "center", width: "80%", color:"#c89a2e", fontWeight: "750", fontFamily: "cairo"}}>لقد طوينا صفحة الحرب في ميادين التحرير، واليوم تبدأ ملحمة البناء
                             </h1>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Emblem_of_Syria_%282025%E2%80%93present%29.svg/1200px-Emblem_of_Syria_%282025%E2%80%93present%29.svg.png" alt="" style={{marginTop: "1px", width: "12%", marginBottom: "20px"}}/>
                         </div>
