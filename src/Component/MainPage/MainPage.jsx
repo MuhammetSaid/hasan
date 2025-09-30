@@ -16,8 +16,8 @@ export default function MainPage() {
                         <div className="profile-image">
                             <img src="https://i.imgur.com/hwxqWcP.jpeg" alt="" style={{width: "160px"}}/>
                         </div>
-                        <h1 style={{color: "white", fontSize: "32px", marginTop:"23px"}}>الرؤية الانتخابية للسيد ناصر المحيميد</h1>
-                        <p style={{color: "white", fontSize: "19px", marginTop:"16px"}}>بعد ثورة عظيمة وتضحيات جليلة، نؤمن أن الشرعية الحقيقية تنبع من دماء الشهداء وثبات الثوار.
+                        <h1 className="left-title" style={{color: "white", marginTop:"23px"}}>الرؤية الانتخابية للسيد ناصر المحيميد</h1>
+                        <p className="left-desc" style={{color: "white", marginTop:"16px"}}>بعد ثورة عظيمة وتضحيات جليلة، نؤمن أن الشرعية الحقيقية تنبع من دماء الشهداء وثبات الثوار.
 ننطلق من الثورة السورية المباركة كمنارة لمسارنا، لنرسخ نظاماً عادلاً يقوم على التوازن بين السلطات، ويمنح الثوار دوراً محورياً في صنع القرار وبناء مؤسسات الدولة القادمة.
 وكانت المرأة السورية شريكة في هذه التضحيات، صابرةً ومناضلة، لتبقى ركناً أصيلاً في مسيرة الحرية وبناء الوطن.
 ومن الداخل السوري ارتسمت معالم الحرية، وصاغ صموده صفحات التحرير، فيما كان أبناء المهجر عوناً وسنداً يكملون المسيرة.
@@ -33,10 +33,9 @@ export default function MainPage() {
                                 <img src="https://i.imgur.com/R25HfMq.png" alt="" />
                             </div>
 
-                            <h1 style={{fontSize:"40px", marginTop: "10px", textAlign: "center"}}>نحن نؤمن بوطن يجمع أبنائه على قلب واحد، حيث العدالة الاجتماعية قاعدة لكل عمل، ورؤية جامعة تقود نهضة اقتصادية حقيقية، ليكون وطننا حراً كريماً، صاعداً نحو المستقبل، ومزدهراً بثمار جهود كل أبنائه.
+                            <h1 className='h1-hero' style={{marginTop: "10px", textAlign: "center"}}>نحن نؤمن بوطن يجمع أبنائه على قلب واحد، حيث العدالة الاجتماعية قاعدة لكل عمل، ورؤية جامعة تقود نهضة اقتصادية حقيقية، ليكون وطننا حراً كريماً، صاعداً نحو المستقبل، ومزدهراً بثمار جهود كل أبنائه.
                             </h1>
-                            <h1 style={{fontSize:"48px", marginTop: "32px"}}>إرادة شعب… ورؤية وطن</h1>
-                            <h3 style={{ marginTop: "120px"}}>من فضلك قم بالتمرير للأسفل</h3>
+                            <h1 className='h1-sub' style={{marginTop: "32px", textAlign: "center"}}>إرادة شعب… ورؤية وطن</h1>
                         </div>
                     </div>
 
@@ -46,17 +45,25 @@ export default function MainPage() {
                                 <img src="https://media.journoportfolio.com/users/474088/images/752976bf-8b0e-4814-80c6-c06a9e76d5ac.jpg" alt="" />
                             </div>
                             <div className="text2">
-                                <h2 style={{direction: "rtl", fontSize:"28px", textAlign: "center"}}>رؤيتي لسورية الحاضر والمستقبل: وجودي ممثلاً عن الشعب السوري في المجلس هو التزام بأن أكون صوته الحقيقي في بناء دولة حديثة، تصون كرامة المواطن، ويرتكز أساسها على العدل وسيادة القانون
+                                <h2 className="section2-title" style={{direction: "rtl", textAlign: "center"}}>رؤيتي لسوريا الحاضر والمستقبل
+
+سوريا التي نحلم بها هي وطن جامع لكل أبنائه، لا مكان فيه للتهميش أو الإقصاء، يقوم على العدالة الاجتماعية وتكافؤ الفرص، حيث تكون مؤسسات الدولة في خدمة الشعب لا العكس.
+
                                 </h2>
-                                <p style={{direction: "rtl", marginTop:"20px", fontSize: "18px", textAlign: "center"}}>أسعى إلى خدمة وطني عبر تأسيس سلطات وقوانين عادلة تضمن الحقوق، وتعزز التنمية المستدامة، وتفتح المجال لمشاركة الجميع في صياغة المستقبل</p>
-                                <p style={{direction: "rtl", marginTop:"20px", fontSize: "18px", textAlign: "center"}}>بعد سنوات من الثبات والتضحيات، وسط صعوبات جسام وتحديات كبرى، نسعى إلى ترسيخ نظام إدارة عادل قائم على التوازن بين السلطات، وبناء أنظمة صحية ومجتمعية تضمن الحقوق وتعزز مسيرة التنمية المستدامة، وتُمكّن الشعب السوري من استعادة دوره الريادي في بناء الوطن</p>
+                                <p className="section2-p" style={{direction: "rtl", marginTop:"20px", textAlign: "center"}}>نسعى إلى بناء نظام صحي وتعليمي متطور، وتنمية اقتصادية شاملة توفر فرص العمل وتدعم الإنتاج المحلي، إلى جانب بنية تحتية وخدمات حديثة تليق بكرامة المواطن.
+                                </p>
+                                <p className="section2-p" style={{direction: "rtl", marginTop:"16px", textAlign: "center"}}>ونضع في مقدمة أولوياتنا الدعم الاجتماعي لمصابي الحرب الأكثر حاجة، ولأسر الشهداء المحتاجة، باعتبار ذلك واجبًا وطنيًا وأخلاقيًا لا يسقط بالتقادم.</p>
+                                <p className="section2-p" style={{direction: "rtl", marginTop:"16px", textAlign: "center"}}>كما نؤمن أن تمكين المجتمع، وخاصة الشباب والنساء، هو الضامن لاستمرار النهضة وصيانة مكتسبات الثورة.
+                                </p>
+                                <p className="section2-p" style={{direction: "rtl", marginTop:"16px", textAlign: "center"}}>بهذا، نصون حاضر سوريا بقوة مؤسساتها، ونفتح آفاق المستقبل لتكون وطناً حراً كريماً، شامخاً بين الأمم.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                     <div className="section3">
                         <div className="section3-content"> 
-                            <h1 style={{margin: "48px", color: "white"}}>الأولويات الوطنية</h1>
+                            <h1 className="section-title" style={{margin: "48px", color: "white"}}>الأولويات الوطنية</h1>
                             <div className="slider-div"style={{width: "80%"}}> 
                                 <ReactCardSlider />
                             </div>
@@ -65,7 +72,7 @@ export default function MainPage() {
 
                     <div className="section4">
                         <div className="section4-content">
-                            <h1 style={{marginTop: "140px", textAlign: "center", fontSize:"43px", width: "80%", color:" white"}}>تنتقل مياديننا من ساحة المعركة إلى ساحة البناء، ومن ثورةٍ على الظلم إلى ثورةِ الإعمار والتغيير
+                            <h1 className="section4-heading" style={{marginTop: "140px", textAlign: "center", width: "80%", color:" white"}}>تنتقل مياديننا من ساحة المعركة إلى ساحة البناء، ومن ثورةٍ على الظلم إلى ثورةِ الإعمار والتغيير
                             </h1>
                             <img src="https://i.imgur.com/P0iNcK4.png" alt="" style={{marginTop: "1px", width: "9%"}}/>
                         </div>
@@ -73,154 +80,76 @@ export default function MainPage() {
 
                     <div className="section5">
                         <div className="section5-content">
-                            <h1 style={{textAlign: "center", fontSize: "46px", color: "#007a18"}}>من أهم الملفات</h1>
-                            
-                            <div className="stars" style={{display: "flex", alignItems: "center", justifyContent:"center"}}>
-                                <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
-                                <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
-                                <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
+                            <div className="logo-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Emblem_of_Syria_%282025%E2%80%93present%29.svg/1200px-Emblem_of_Syria_%282025%E2%80%93present%29.svg.png" alt="" style={{opacity: "0.25"}}/>
                             </div>
+                            <div className="section5-text" style={{direction: "rtl", marginRight: "40px "}}>
+                                <p style={{fontFamily: "cairo"}} className='h1-sec5-main'>المحاور الأساسية للبرنامج:</p>
 
-                            <h1 style={{textAlign: "center", fontSize: "32px", color: "#007a18"}}> تعزيز العدالة وسيادة القانون</h1>
+                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "10px"}}> 1. المبادئ العامة</p>
+                                <ul>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
+                                    الانطلاق من ثوابت الثورة السورية التي قدمت التضحيات العظيمة في سبيل الحرية والكرامة.
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
+                                    ترسيخ دولة القانون والمؤسسات القائمة على العدالة والمساواة والمساءلة.
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
+                                    تعزيز مفهوم المواطنة الكاملة، بحيث يتساوى جميع السوريين دون تمييز ديني أو قومي أو عشائري أو جنسي.
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
+                                    التمسك بوحدة سوريا أرضاً وشعباً، ورفض أي مشاريع للتقسيم أو المحاصصة.
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
+                                    الالتزام بالثوابت الوطنية التي ضحى من أجلها السوريون، وعدم القبول بأي تنازل عن السيادة أو التلاعب بالدستور.
+                                    </li>
+                                </ul>
 
-                            <div className="cards1 cards">
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية</h2>
-                                </div>
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('إضافة العمل على إلغاء او تعديل القوانين و المراسيم الظالمة التي تمس حقوق و حريات و ملكيات السوريين')}` }}>
-                                    <h2 style={{textAlign:"center"}}>إضافة العمل على إلغاء او تعديل القوانين و المراسيم الظالمة التي تمس حقوق و حريات و ملكيات السوريين</h2>
-                                </div>
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة')}` }}>
-                                    <h2 style={{textAlign:"center"}}>تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة</h2>
-                                </div>
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على وضع قوانين للعدالة الانتقالية تسعى لإنصاف الضحايا و منع إفلات مرتكبي الانتهاكات من العقاب')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على وضع قوانين للعدالة الانتقالية تسعى لإنصاف الضحايا و منع إفلات مرتكبي الانتهاكات من العقاب</h2>
-                                </div>
-                            </div>
+                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}> 2. حمص أولاً</p>
+                                <ul>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
+                                    جعل محافظة حمص نموذجاً للنهوض الوطني من خلال إعمارها أولاً وتلبية احتياجات أبنائها في الخدمات والتعليم والصحة والبنية التحتية.
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
+                                    إعادة إحياء المراكز الصناعية والزراعية لتعود حمص مركزاً اقتصادياً متجدداً.
 
-                            <h1 style={{textAlign: "center", fontSize: "32px", color: "#007a18", marginTop: "40px"}}> تعزيز اللامركزية في إدارة البلديات
-                            </h1>
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
+                                    المساهمة في إعمار سوريا كلها وعودتها المشرقة إليها بكرامة.
 
-                            <div className="cards1 cards">
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية</h2>
-                                </div>
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('نقل الصلاحيات والموارد من المركز إلى السلطات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>نقل الصلاحيات والموارد من المركز إلى السلطات المحلية</h2>
-                                </div>
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة')}` }}>
-                                    <h2 style={{textAlign:"center"}}>تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة</h2>
-                                </div>
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على وضع قوانين للعدالة الانتقالية تسعى لإنصاف الضحايا و منع إفلات مرتكبي الانتهاكات من العقاب')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على وضع قوانين للعدالة الانتقالية تسعى لإنصاف الضحايا و منع إفلات مرتكبي الانتهاكات من العقاب</h2>
-                                </div>
-                            </div>
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
+                                    تثبيت دور حمص كعاصمة وطنية واقتصادية وثقافية، وانطلاقتها نحو بناء سوريا الجديدة.
+                                    </li>
+                                </ul>
 
-                            <h1 style={{textAlign: "center", fontSize: "32px", color: "#007a18", marginTop: "40px"}}>تطوير أنظمة الصحة والخدمات الأساسية
-                            </h1>
+                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>3. الوحدة الوطنية وبناء الدولة</p>
+                                <ul>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>تكريس مفهوم المواطنة الجامعة، ومنع أي تمييز على أساس الدين أو الطائفة أو العشيرة أو الجنس.
 
-                            <div className="cards1 cards">
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية</h2>
-                                </div>
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('نقل الصلاحيات والموارد من المركز إلى السلطات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>نقل الصلاحيات والموارد من المركز إلى السلطات المحلية</h2>
-                                </div>
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة')}` }}>
-                                    <h2 style={{textAlign:"center"}}>تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة</h2>
-                                </div>
-                                <div className="card card1" onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على وضع قوانين للعدالة الانتقالية تسعى لإنصاف الضحايا و منع إفلات مرتكبي الانتهاكات من العقاب')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على وضع قوانين للعدالة الانتقالية تسعى لإنصاف الضحايا و منع إفلات مرتكبي الانتهاكات من العقاب</h2>
-                                </div>
-                            </div>
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>صياغة دستور جديد يضمن الحقوق والحريات ويصون كرامة المواطن.
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>ضمان فصل السلطات الثلاث، ومحاسبة المسؤولين بعدالة وشفافية.
+                                    </li>
+                                </ul>
 
-                            <div className="stars" style={{display: "flex", alignItems: "center", justifyContent:"center"}}>
-                                <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
-                                <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
-                                <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
-                            </div>
-
-                            <h1 style={{textAlign: "center", fontSize: "50px", color: "#007a18"}}> الملف الإقتصادي وإعادة الإعمار بعد الانتصار
-
-                            </h1>
-
-                            <div className="stars" style={{display: "flex", alignItems: "center", justifyContent:"center"}}>
-                                <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
-                                <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
-                                <h1 style={{margin: "20px", color: "#007a18", fontSize: "40px"}}>*</h1>
-                            </div>
-
-                            <h1 style={{textAlign: "center", fontSize: "30px", color: "#007a18"}}>إعادة الإعمار المستدام
-                            </h1>
-
-                            <div className="cards1 cards">
-                                <div className="card card2" onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية</h2>
-                                </div>
-                                <div className="card card2" onClick={() => { window.location.hash = `?content=${encodeURIComponent('نقل الصلاحيات والموارد من المركز إلى السلطات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>نقل الصلاحيات والموارد من المركز إلى السلطات المحلية</h2>
-                                </div>
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة')}` }}>
-                                    <h2 style={{textAlign:"center"}}>تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة</h2>
-                                </div>
-                            </div>
-
-                            <h1 style={{textAlign: "center", fontSize: "30px", color: "#007a18", marginTop: "40px"}}>تشجيع الاستثمار
-
-                            </h1>
-
-                            <div className="cards1 cards">
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية</h2>
-                                </div>
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('نقل الصلاحيات والموارد من المركز إلى السلطات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>نقل الصلاحيات والموارد من المركز إلى السلطات المحلية</h2>
-                                </div>
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة')}` }}>
-                                    <h2 style={{textAlign:"center"}}>تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة</h2>
-                                </div>
-                            </div>
-
-
-
-                            <h1 style={{textAlign: "center", fontSize: "30px", color: "#007a18", marginTop: "40px"}}>تحفيز سوق العمل
-
-                            </h1>
-
-                            <div className="cards1 cards">
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية</h2>
-                                </div>
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('نقل الصلاحيات والموارد من المركز إلى السلطات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>نقل الصلاحيات والموارد من المركز إلى السلطات المحلية</h2>
-                                </div>
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة')}` }}>
-                                    <h2 style={{textAlign:"center"}}>تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة</h2>
-                                </div>
-                            </div>
-
-                            <h1 style={{textAlign: "center", fontSize: "30px", color: "#007a18", marginTop: "40px"}}>إصلاح النظام المالي
-
-
-                            </h1>
-
-                            <div className="cards1 cards">
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('')}` }}>
-                                    <h2 style={{textAlign:"center"}}>العمل على تعديل قانون الإدارة المحلية ليكون قانونا عصريا يراعي الوضع السوري و يعطي دور أكبر للإدارات المحلية</h2>
-                                </div>
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('نقل الصلاحيات والموارد من المركز إلى السلطات المحلية')}` }}>
-                                    <h2 style={{textAlign:"center"}}>نقل الصلاحيات والموارد من المركز إلى السلطات المحلية</h2>
-                                </div>
-                                <div className="card card2"  onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة')}` }}>
-                                    <h2 style={{textAlign:"center"}}>تطوير آليات محاربة الفساد وتعزيز النزاهة في مؤسسات الدولة</h2>
-                                </div>
+                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>4. العدالة الانتقالية والمصالحة الوطنية</p>
+                                <ul>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>تحقيق عدالة شاملة عبر محاسبة كل من ارتكب جرائم بحق السوريين.
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>إنصاف الضحايا وجبر الضرر المادي والمعنوي.
+                                    </li>
+                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>إرساء مصالحة وطنية قائمة على العدالة وإنصاف المظلومين، لتكون أساساً لمصالحة مجتمعية دائمة.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
                     <div className="section6">
                         <div className="section6-content" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
-                            <h1 style={{ marginTop: "40px"}}> المنجزات والخبرات العملية والمجتمعيّة
+                            <h1 style={{ marginTop: "40px", direction: "rtl"}}> المنجزات والخبرات العملية والمجتمعيّة
                             </h1>
                             <div className="slider6" style={{width: "80%", marginTop: "26px"}}>
                                 <Slider2 />
