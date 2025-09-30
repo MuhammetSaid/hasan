@@ -39,9 +39,9 @@ export default function MainPage() {
                         </div>
                     </div>
 
-                    <div className="section2">
+                    <div className="section2" style={{backgroundImage: "url(https://i.imgur.com/t4Z5qgL.png)", backgroundSize: "cover"}}>
                         <div className="section2-content">
-                            <div className="image2">
+                            <div className="image2 image-container" >
                                 <img src="https://media.journoportfolio.com/users/474088/images/752976bf-8b0e-4814-80c6-c06a9e76d5ac.jpg" alt="" />
                             </div>
                             <div className="text2">
@@ -62,7 +62,7 @@ export default function MainPage() {
                     </div>
 
                     <div className="section3">
-                        <div className="section3-content"> 
+                        <div className="section3-content">
                             <h1 className="section-title" style={{margin: "48px", color: "white"}}>الأولويات الوطنية</h1>
                             <div className="slider-div"style={{width: "80%"}}> 
                                 <ReactCardSlider />
@@ -83,141 +83,163 @@ export default function MainPage() {
                             <div className="logo-image">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Emblem_of_Syria_%282025%E2%80%93present%29.svg/1200px-Emblem_of_Syria_%282025%E2%80%93present%29.svg.png" alt="" style={{opacity: "0.25"}}/>
                             </div>
-                            <div className="section5-text" style={{direction: "rtl", marginRight: "40px "}}>
-                                <p style={{fontFamily: "cairo"}} className='h1-sec5-main'>المحاور الأساسية للبرنامج:</p>
-
-                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "10px"}}> 1. المبادئ العامة</p>
-                                <ul>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
-                                    الانطلاق من ثوابت الثورة السورية التي قدمت التضحيات العظيمة في سبيل الحرية والكرامة.
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
-                                    ترسيخ دولة القانون والمؤسسات القائمة على العدالة والمساواة والمساءلة.
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
-                                    تعزيز مفهوم المواطنة الكاملة، بحيث يتساوى جميع السوريين دون تمييز ديني أو قومي أو عشائري أو جنسي.
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
-                                    التمسك بوحدة سوريا أرضاً وشعباً، ورفض أي مشاريع للتقسيم أو المحاصصة.
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
-                                    الالتزام بالثوابت الوطنية التي ضحى من أجلها السوريون، وعدم القبول بأي تنازل عن السيادة أو التلاعب بالدستور.
-                                    </li>
-                                </ul>
-
-                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}> 2. حمص أولاً</p>
-                                <ul>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
-                                    جعل محافظة حمص نموذجاً للنهوض الوطني من خلال إعمارها أولاً وتلبية احتياجات أبنائها في الخدمات والتعليم والصحة والبنية التحتية.
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
-                                    إعادة إحياء المراكز الصناعية والزراعية لتعود حمص مركزاً اقتصادياً متجدداً.
-
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
-                                    المساهمة في إعمار سوريا كلها وعودتها المشرقة إليها بكرامة.
-
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>
-                                    تثبيت دور حمص كعاصمة وطنية واقتصادية وثقافية، وانطلاقتها نحو بناء سوريا الجديدة.
-                                    </li>
-                                </ul>
-
-                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>3. الوحدة الوطنية وبناء الدولة</p>
-                                <ul>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>تكريس مفهوم المواطنة الجامعة، ومنع أي تمييز على أساس الدين أو الطائفة أو العشيرة أو الجنس.
-
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>صياغة دستور جديد يضمن الحقوق والحريات ويصون كرامة المواطن.
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>ضمان فصل السلطات الثلاث، ومحاسبة المسؤولين بعدالة وشفافية.
-                                    </li>
-                                </ul>
-
-                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>4. العدالة الانتقالية والمصالحة الوطنية</p>
-                                <ul>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>تحقيق عدالة شاملة عبر محاسبة كل من ارتكب جرائم بحق السوريين.
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>إنصاف الضحايا وجبر الضرر المادي والمعنوي.
-                                    </li>
-                                    <li style={{marginRight: "30px", fontSize: "21px", marginTop:"10px"}}>إرساء مصالحة وطنية قائمة على العدالة وإنصاف المظلومين، لتكون أساساً لمصالحة مجتمعية دائمة.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="section6">
-                        <div className="section6-content" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
-                            <h1 style={{ marginTop: "40px", direction: "rtl"}}> المنجزات والخبرات العملية والمجتمعيّة
-                            </h1>
-                            <div className="slider6" style={{width: "80%", marginTop: "26px"}}>
-                                <Slider2 />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="section7">
-                        <div className="section7-content">
-                            <h1 style={{textAlign: "center", marginTop:"140px", fontSize: "45px", color:"white"}}> المهارات والدورات التدريبية المكتسبة
-                            </h1>
-                            <div className="sec7-cards">
-                                <div className="two-cards">
-                                    <div className="card3">
-                                        <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>إدارة الأزمات والحوكمة الرشيدة</h1>
-                                    </div>
-                                    <div className="card3">
-                                        <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>تدريب وبناء قدرات الكوادر الشبابية والمجتمعية</h1>
-                                    </div>  
-                                </div>
-
-                                <div className="two-cards">
-                                    <div className="card3">
-                                    <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>التخطيط الاستراتيجي وإدارة المشاريع</h1>
+                            <p style={{fontFamily: "cairo", direction: "rtl"}} className='h1-sec5-main'>البرنامج ـ المحاور الأساسية:</p>
+                            <div className="section5-text" style={{direction: "rtl", marginRight: "40px ", paddingBottom: "0", zIndex: "100", position: "relative", display: "flex"}}>
+                                <div className="left-sction5">
+                                    <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "10px"}}> 1. رعاية المصابين والجرحى
+                                    </p>
+                                    <ul>
+                                        <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('توفير الدعم الصحي والمعنوي والمادي للمصابين الأكثر حاجة.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            توفير الدعم الصحي والمعنوي والمادي للمصابين الأكثر حاجة.
+                                        </li>
+                                        <li  style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            <p onClick={() => { window.location.hash = `?content=${encodeURIComponent('تحسين خدمات إعادة التأهيل والرعاية المستمرة لهم.')}` }}>تحسين خدمات إعادة التأهيل والرعاية المستمرة لهم.</p>
+                                        </li>
                                         
+                                    </ul>
+                                    <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>3. إعادة إعمار الأحياء والمنازل
+                                    </p>
+                                    <ul>
+                                        <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('ترميم المنازل المتضررة وجعلها صالحة للسكن.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            ترميم المنازل المتضررة وجعلها صالحة للسكن.
+                                        </li>
+                                        <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('إطلاق مشاريع إعادة تأهيل الأحياء المنكوبة بما يحفظ كرامة السكان.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            إطلاق مشاريع إعادة تأهيل الأحياء المنكوبة بما يحفظ كرامة السكان.
+                                        </li>
+                                    </ul>
+
+                                    
+
+                                    {/* ============================================ */}
+
+                                    <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>5. البنية التحتية
+                                    </p>
+                                    <ul>
+                                        <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('تطوير شبكات المياه والطرق.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            تطوير شبكات المياه والطرق.
+                                        </li>
+                                        <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('إنشاء طرق جديدة واسعة تسهّل الحركة وتنعش الاقتصاد.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            إنشاء طرق جديدة واسعة تسهّل الحركة وتنعش الاقتصاد.
+                                        </li>
+                                    </ul>
+                                    <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>7. الزراعة والمزارعون
+                                </p>
+                                <ul>
+                                    <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('دعم المزارعين لمواجهة تحديات الجفاف وقلة الأمطار.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                        دعم المزارعين لمواجهة تحديات الجفاف وقلة الأمطار.
+                                    </li>
+                                    <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('توفير حلول بديلة للري وتحفيز الإنتاج الزراعي.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                        توفير حلول بديلة للري وتحفيز الإنتاج الزراعي.
+                                    </li>
+                                </ul>
+
+                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>9. الهوية الوطنية
+                                </p>
+                                <ul>
+                                    <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('جعل حمص عنوانًا للبناء بعد التحرير.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                        جعل حمص عنوانًا للبناء بعد التحرير.
+                                    </li>
+                                    <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('إبراز مكانتها كعاصمة الثورة السورية ورمز للتجديد.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                        إبراز مكانتها كعاصمة الثورة السورية ورمز للتجديد.
+                                    </li>
+                                </ul>
                                     </div>
-                                    <div className="card3">                                    
-                                        <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>تطوير السياسات الصحية والاجتماعية</h1>
-                                    </div>  
+
+                                <div className="right-sction5" style={{marginRight: "70px"}}>
+
+                                    <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}> 2. أسر الشهداء والمحتاجين
+                                    </p>
+                                    <ul>
+                                        <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('ضمان حياة كريمة لأسر الشهداء عبر الدعم المادي والاجتماعي.')}`  }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            ضمان حياة كريمة لأسر الشهداء عبر الدعم المادي والاجتماعي.
+                                        </li>
+                                        <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('إنشاء برامج خاصة لتأمين فرص التعليم والعمل لأبنائهم.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            إنشاء برامج خاصة لتأمين فرص التعليم والعمل لأبنائهم.
+                                        </li>
+                                    </ul>
+
+                                    <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>4. التعليم والمدارس
+                                    </p>
+                                    <ul>
+                                        <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('توسيع المدارس القائمة وبناء مدارس جديدة.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            توسيع المدارس القائمة وبناء مدارس جديدة.
+                                        </li>
+                                        <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('دعم المعلمين بالموارد والتأهيل المستمر لضمان جودة التعليم.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                            دعم المعلمين بالموارد والتأهيل المستمر لضمان جودة التعليم.
+                                        </li>
+                                    </ul>
+                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>6. القطاع الصحي
+                                </p>
+                                <ul>
+                                    <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('تحديث وتطوير المشافي القائمة.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                        تحديث وتطوير المشافي القائمة.
+                                    </li>
+                                    <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('تعزيز الخدمات الطبية لتلبية حاجات الناس.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                        تعزيز الخدمات الطبية لتلبية حاجات الناس.
+                                    </li>
+                                </ul>
+
+                                
+
+                                <p style={{fontFamily: "cairo", fontWeight: "700", color: "rgb(145, 0, 0)", fontSize: "22px", marginTop: "20px"}}>8. الحوكمة والالتزام بالقانون
+                                </p>
+                                <ul>
+                                    <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('جعل القانون المرجعية العليا لكل القرارات.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                        جعل القانون المرجعية العليا لكل القرارات.
+                                    </li>
+                                    <li onClick={() => { window.location.hash = `?content=${encodeURIComponent('العمل ببرنامج زمني محدد وشفاف يمكن للناس متابعته ومحاسبته.')}` }} style={{marginRight: "30px", fontSize: "21px", marginTop:"10px", cursor: 'pointer'}}>
+                                        العمل ببرنامج زمني محدد وشفاف يمكن للناس متابعته ومحاسبته.
+                                    </li>
+                                </ul>
+
+                                
                                 </div>
 
-                                <div className="two-cards">
-                                    <div className="card3">
-                                        <h1 style={{marginTop: "0", direction: "rtl", textAlign:"center"}}>التفاوض وبناء الشراكات المحلية والدولية</h1>
-                                    </div> 
-                                </div>
+                                
+
+                                
+
+                                
                             </div>
+                            <div className="endline">
+                                    <div className="line"></div>
+
+                                    <div className="image-logo-small">
+                                        <img src="https://i.imgur.com/rWbU7hx.png" alt="" />
+                                    </div>
+
+                                    <div className="line"></div> 
+                                </div>
                         </div>
                     </div>
 
                     <div className="section8">
-                        <div className="section8-content">
-                            <div className="section8-con">
-                                <div className="section8-con-left">
-                                    <img src="https://i.imgur.com/hwxqWcP.jpeg" alt="" />
-                                </div>
-
+                        <div className="section8-content" style={{}}> 
+                            <div className="section8-con" style={{margin: "0", padding: "0",display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"}}>
+                            <h1 style={{margin: "10px", fontFamily: "cairo", direction: "rtl", textAlign: "center"}}>سيرة مختصرة ورؤية لإعادة إعمار حمص</h1>
+                                
                                 <div className="section8-con-right" style={{direction: "rtl"}}>
-                                    <h1 style={{textAlign: "center"}}>الأهداف المستقبلية                                    </h1>
-
-                                    <div className="cards1 cards">
-                                        <div className="card card1 card4" onClick={() => { window.location.hash = `?content=${encodeURIComponent('المساهمة في صياغة سياسات وطنية لإعادة الإعمارة')}` }}>
-                                            <h2 style={{textAlign:"center"}}>المساهمة في صياغة سياسات وطنية لإعادة الإعمارة</h2>
-                                        </div>
-                                        <div className="card card1 card4" onClick={() => { window.location.hash = `?content=${encodeURIComponent('بناء دولة قائمة على العدل – التنمية – المشاركة – الكرامة')}` }}>
-                                            <h2 style={{textAlign:"center"}}>بناء دولة قائمة على العدل – التنمية – المشاركة – الكرامة</h2>
-                                        </div>
-                                        <div className="card card1 card4" onClick={() => { window.location.hash = `?content=${encodeURIComponent('ضمان مشاركة مجتمعية واسعة في صنع القرار' )}` }}>
-                                            <h2 style={{textAlign:"center"}} > ضمان مشاركة مجتمعية واسعة في صنع القرار</h2>
-                                        </div>
-                                        
+                                <div className="section8-con-left">
+                                    <div className="image8">
+                                        <img src="https://i.imgur.com/hwxqWcP.jpeg" alt="" />
                                     </div>
-
-                                    <h1 style={{textAlign:"center", marginTop: "30px"}}>أضع كل خبرتي والتزامي في خدمتكم، لضمان أن يكون كل قرار وبرنامج في مجلس الشعب انعكاساً حقيقياً لصوت المواطن السوري. معاً، نحوّل الطموح إلى واقع ملموس يواكب نصر ثورتنا المباركة، حلم لن يكتمل إلا بالكفاءة وتُبنى المسؤوليات على الأمانة، فقبيلتنا وعائلتنا الكبرى هي الوطن، وانتماؤنا الأسمى هو لسورية الحرّة</h1>
-                                    <h1 style={{textAlign:"center", marginTop: "30px"}}>سنبني كما قاتلنا</h1>
-                                    <h1 style={{textAlign:"center", marginTop: "14px"}}>ونعمر كما ثُرنا</h1>
-                                    <h1 style={{textAlign:"center", marginTop: "40px"}}>★★★</h1>
-
+                                </div>
+                                <div className="line8" style={{width: "30%", height: "4px", background: "#002724", margin: "20px"}}></div>
+                                    <p>أنا ناصر محمد عيد المحيميد، الذي عرفه الناس باسم ناصر النهار في ساحات القتال، ابن حمص، وإبن حيّها الصامد بابا عمرو.</p>
+                                    <br />
+                                    <p>كان سلاحي يومها البارود، حتى كتبنا بالدم صفحة الحرية، أمّا اليوم فسلاحي هو القلم والبناء، لأكتب بالعمل لا بالكلمات وحدها.</p>
+                                    <br />
+                                    <p>مرجعيتي هي القانون الذي ناضلنا من أجله أربعة عشر عامًا، فصار بوصلةً ترشد خطاي، لا ميل فيها ولا انحراف.</p>
+                                    <br />
+                                    <p>أولوياتي لا تحتمل اللبس: أن نرعى الجرحى الأكثر حاجة، وأن نكون سندًا لأسر الشهداء المحتاجين، وأن نعيد للمنازل دفء الحياة بترميمها، وأن نفتح للطلاب أبواب مدارس أوسع وأجمل، ونمنح معلميهم الدعم ليستمروا في رسالتهم. أن نطوّر البنية التحتية للمياه والطرق، ونشق طرقًا جديدة رحبة تليق بمدينة الحرية، وأن نرفع من شأن المشافي، وأن نقف إلى جانب المزارعين في مواجهة قلة المطر.</p>
+                                    <br />
+                                    <p>لست في مجلس الشعب لأبيع الناس أحلاما معلّقة، بل لأحوّلها إلى واقع ببرنامج زمني واضح ودقيق.</p>
+                                    <br />
+                                    <p>لقد طوينا صفحة الحرب في ميادين التحرير، واليوم تبدأ ملحمة البناء؛ معركتنا أن نعيد لحمص وجهها المشرق، وأن نصوغها كما تستحق أن تكون: عاصمة الثورة السورية.</p>
+                                    <br />
+                                    <h3 className='abs-star1'>★</h3>
+                                    <h3 className='abs-star2'>★</h3>
+                                    <h3 className='abs-star3'>★</h3>
                                 </div>
                             </div>
                         </div>
@@ -229,7 +251,7 @@ export default function MainPage() {
                             </h1>
                             <h4 style={{textAlign: "center", color: "white", marginTop: "20px"}}>dr.Ahmed88m@gmail.com   +963945940094</h4>
 
-                            <h1 style={{textAlign: "center", color: "white", marginTop: "90px", marginBottom: "20px"}}>د.أحمد منصور الأقرع
+                            <h1 style={{textAlign: "center", color: "white", marginTop: "90px", marginBottom: "20px"}}>ناصر المحيميد
                             </h1>
                         </div>
                     </div>

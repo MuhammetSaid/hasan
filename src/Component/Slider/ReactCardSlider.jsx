@@ -36,7 +36,7 @@ export default () => {
             onSlideChange={() => console.log('slide change')}
         >
             <SwiperSlide>
-                <div className="main-side">
+                <div className="main-side" onClick={() => { window.location.hash = `?content=${encodeURIComponent('الصحة والتعليم')}&image=${encodeURIComponent('https://i.imgur.com/VSSVqDp.jpeg')}` }} style={{cursor: 'pointer'}}>
                     <div className="slide-card-image">
                         <img src="https://i.imgur.com/VSSVqDp.jpeg" alt="" />
                     </div>
@@ -47,7 +47,7 @@ export default () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="main-side">
+                <div className="main-side" onClick={() => { window.location.hash = `?content=${encodeURIComponent('التنمية والعدالة الاجتماعية')}&image=${encodeURIComponent('https://i.imgur.com/TSUShqf.jpeg')}` }} style={{cursor: 'pointer'}}>
                     <div className="slide-card-image">
                         <img src="https://i.imgur.com/TSUShqf.jpeg" alt="" />
                     </div>
@@ -60,7 +60,7 @@ export default () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="main-side">
+                <div className="main-side" onClick={() => { window.location.hash = `?content=${encodeURIComponent('الخدمات والبنية التحتية')}&image=${encodeURIComponent('https://i.imgur.com/UBvK4IM.jpeg')}` }} style={{cursor: 'pointer'}}>
                     <div className="slide-card-image">
                         <img src="https://i.imgur.com/UBvK4IM.jpeg" alt="" />
                     </div>
@@ -73,7 +73,7 @@ export default () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="main-side">
+                <div className="main-side" onClick={() => { window.location.hash = `?content=${encodeURIComponent('دعم المجتمع')}&image=${encodeURIComponent('https://i.imgur.com/opJe8qb.jpeg')}` }} style={{cursor: 'pointer'}}>
                     <div className="slide-card-image">
                         <img src="https://i.imgur.com/opJe8qb.jpeg" alt="" />
                     </div>

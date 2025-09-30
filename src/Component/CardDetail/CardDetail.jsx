@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function CardDetail(){
     const [content, setContent] = React.useState('')
+    const [imageSrc, setImageSrc] = React.useState('')
 
     React.useEffect(() => {
         function updateFromHash(){
@@ -9,10 +10,13 @@ export default function CardDetail(){
             const query = hash.split('?')[1] || ''
             const params = new URLSearchParams(query)
             const raw = params.get('content') || ''
+            const img = params.get('image') || ''
             try{
                 setContent(decodeURIComponent(raw))
+                setImageSrc(img ? decodeURIComponent(img) : '')
             } catch {
                 setContent(raw)
+                setImageSrc(img)
             }
         }
         updateFromHash()
@@ -45,6 +49,11 @@ export default function CardDetail(){
                 }}>⬅︎ الرجوع</button>
 
                 <div style={{background: 'white', borderRadius: 10, boxShadow: '0 6px 18px rgba(0,0,0,0.08)', padding: 28}}>
+                    {imageSrc ? (
+                        <div style={{textAlign: 'center', marginBottom: 16}}>
+                            <img src={imageSrc} alt="" style={{maxWidth: '100%', borderRadius: 8}} />
+                        </div>
+                    ) : null}
                     <div style={{color: '#333', lineHeight: 1.6, fontSize: 18, whiteSpace: 'pre-wrap', textAlign: 'left'}}>
                         {content || 'Seçili bir kart yok.'}
                     </div>
@@ -62,7 +71,7 @@ export default function CardDetail(){
                 <div style={{maxWidth: "100%", margin: '0 auto', color: 'white', textAlign: 'center'}}>
                     <h3 style={{margin: 0, marginBottom: 12}}>أرحب بتواصلكم معي عبر البريد الإلكتروني ورقم الموبايل</h3>
                     <p style={{margin: 0}}>dr.Ahmed88m@gmail.com   +963945940094</p>
-                    <h3 style={{marginTop: 24}}>د.أحمد منصور الأقرع</h3>
+                    <h3 style={{marginTop: 24}}>ناصر المحيميد</h3>
                 </div>
             </footer>
         </div>
